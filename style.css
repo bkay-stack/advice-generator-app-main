@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -24,9 +25,42 @@ body {
     align-items: center;
     background: hsl(218, 23%, 16%);
     height: 100vh;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.4rem;
+}
+
+.card {
+    padding: 2rem;
 }
 
 .card-wrap {
-    background:  hsl(218, 23%, 16%);
-    color: #fff;
+  background: hsl(217, 19%, 24%);
+    color: #d9d2d2;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+span {
+    color: hsl(150, 100%, 66%);
+    font-size: 15px;
+}
+
+.advice-content {
+    margin-top: 2rem;
+}
+
+.content-img img{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (min-width:650px) {
+    body {
+        background: red;
+    }
 }
