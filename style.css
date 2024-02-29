@@ -64,9 +64,10 @@ span {
 }
 
 
-.icon {
+.icon-btn {
     background: hsl(150, 100%, 66%);
     border-radius: 50%;
+    border: none;
     width: 70px;
     height: 70px; 
     text-align: center;
@@ -76,13 +77,29 @@ span {
     position: absolute;
     left: 149px;
     bottom: -30px;
-    transition:all ease-in 1s;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+
+.icon-btn:hover {
+    background-color: hsl(150, 100%, 66%);
+    animation: glow 1s ease infinite alternate;
+}
  
 
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px hsl(150, 100%, 66%);
+    }
+    100% {
+        box-shadow: 0 0 70px hsl(150, 100%, 66%);
+    }
+}
+
+
 @media (min-width:650px) {
-   .icon {
+   .icon-btn {
     left: 350px;
     bottom: -30px;
    }
