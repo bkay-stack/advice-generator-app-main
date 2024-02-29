@@ -36,6 +36,7 @@ img {
 
 .card {
     padding: 2rem;
+    /* max-width: 700px; */
 }
 
 .card-wrap {
@@ -58,25 +59,31 @@ span {
 
 .content-img img{
     margin-top: 2rem;
+    margin-bottom: 4rem;
     cursor: pointer;
 }
 
-.icon img {
-    display: flex;
-}
 
 .icon {
     background: hsl(150, 100%, 66%);
     border-radius: 50%;
-    width: 50px;
-    height: 50px; 
+    width: 70px;
+    height: 70px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 149px;
+    bottom: -30px;
+    transition:all ease-in 1s;
 }
 
+ 
 
-
-
-@media (min-width:750px) {
-    body {
-        background: red;
-    }
+@media (min-width:650px) {
+   .icon {
+    left: 350px;
+    bottom: -30px;
+   }
 }
