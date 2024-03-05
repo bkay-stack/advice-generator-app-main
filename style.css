@@ -75,7 +75,7 @@ span {
     justify-content: center;
     align-items: center; 
     position: absolute;
-    left: 197px;
+    left: 300px;
     bottom: -30px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
