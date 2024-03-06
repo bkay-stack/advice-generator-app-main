@@ -100,9 +100,9 @@ span {
 }
 
 
-@media (min-width:650px) {
+@media (min-width:750px) {
    .icon-btn {
-    left: 350px;
+    left: 434px;
     bottom: -30px;
    }
 }
