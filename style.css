@@ -46,6 +46,7 @@ img {
     text-align: center;
     border-radius: 1rem;
     position: relative;
+  
 }
 
 span {
@@ -75,7 +76,7 @@ span {
     justify-content: center;
     align-items: center; 
     position: absolute;
-    left: 190px;
+    left: 185px;
     bottom: -30px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
