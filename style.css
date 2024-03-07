@@ -86,6 +86,7 @@ span {
 .icon-btn:hover {
     background-color: hsl(150, 100%, 66%);
     animation: glow 1s ease infinite alternate;
+    cursor: pointer;
 }
  
 
