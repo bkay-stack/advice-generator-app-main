@@ -27,6 +27,7 @@ body {
     height: 100vh;
     font-family: "Manrope", sans-serif;
     font-size: 1.4rem;
+    position: relative;
 }
 
 img {
@@ -76,8 +77,8 @@ span {
     justify-content: center;
     align-items: center; 
     position: absolute;
-    left: 128px;
-    bottom: -30px;
+    left: 160px;
+    bottom: 220px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -107,3 +108,5 @@ span {
     bottom: -30px;
    }
 }
+
+
