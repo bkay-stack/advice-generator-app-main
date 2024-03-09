@@ -77,13 +77,11 @@ img {
     justify-content: center;
     align-items: center; 
     position: absolute;
-    left: 50%; /* Adjust positioning horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    bottom: -30px; /* Adjust positioning vertically */
+    left: 50%; 
+    transform: translateX(-50%);
+    bottom: -30px; 
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
-
 
 
 .icon-btn:hover {
