@@ -79,7 +79,7 @@ img {
     position: absolute;
     left: 50%; /* Adjust positioning horizontally */
     transform: translateX(-50%); /* Center horizontally */
-    bottom: 20px; /* Adjust positioning vertically */
+    bottom: -30px; /* Adjust positioning vertically */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
