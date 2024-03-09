@@ -50,7 +50,7 @@ img {
     /* max-width: 800px; */
 }
 
-span {
+#advice p {
     color: hsl(150, 100%, 66%);
     font-size: 15px;
 }
@@ -77,10 +77,12 @@ span {
     justify-content: center;
     align-items: center; 
     position: absolute;
-    left: 185px;
-    bottom: -30px;
+    left: 50%; /* Adjust positioning horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    bottom: 20px; /* Adjust positioning vertically */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 
 
@@ -103,11 +105,11 @@ span {
 
 
 
-@media (min-width:750px) {
-   .icon-btn {
-    left: 334px;
+/* @media (min-width:750px) {
+    .icon-btn {
+    left: 300px;
     bottom: -40px;
    }
-}
+} */
 
 
