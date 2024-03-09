@@ -27,7 +27,7 @@ body {
     height: 100vh;
     font-family: "Manrope", sans-serif;
     font-size: 1.4rem;
-    /* position: relative; */
+   
 }
 
 img {
@@ -37,7 +37,7 @@ img {
 
 .card {
     padding: 2rem;
-    /* max-width: 700px; */
+   
 }
 
 .card-wrap {
@@ -47,7 +47,7 @@ img {
     text-align: center;
     border-radius: 1rem;
     position: relative;
-    /* max-width: 800px; */
+  
 }
 
 #advice p {
