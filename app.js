@@ -1,9 +1,23 @@
+const btn = document.querySelector('.icon-btn');
+const id = document.querySelector("#advice p")
+const adviceBody = document.querySelector(".advice-content p")
+
+
+
 const fetchAdvice = async () => {
     const res = await fetch("https://api.adviceslip.com/advice")
     const data = await res.json()
-   
-    document.querySelector("#advice p").innerHTML = `Advice #${data.slip.id}`
-    document.querySelector(".advice-content").innerHTML = `"${data.slip.advice}"`
+    return data;
+}
+
+
+  const handleClick = async () => {
+    const adviceData = await fetchAdvice()
+
+    id.textContent = `Advice #${adviceData.slip.id}`;
+    adviceBody.textContent = `"${adviceData.slip.advice}"`;
   }
   
-  fetchAdvice()
+  
+  btn.addEventListener('click', handleClick)
+
